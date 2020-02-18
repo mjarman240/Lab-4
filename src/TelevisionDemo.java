@@ -61,6 +61,6 @@ public class TelevisionDemo
         portable.decreaseVolume();;
 
         // Print status
-        System.out.println("Channel: " + portable.getChannel() + " Volume: " + portable.getVolume());
+        System.out.println("Channel: " + portable.getChannel() + ", Volume: " + portable.getVolume());
     }
 }
