@@ -43,5 +43,24 @@ public class TelevisionDemo
         System.out.println(); //for a blank line
         //HERE IS WHERE YOU DO TASK #5
 
+        // Create new isntance
+        Television portable = new Television("Sharp", 19);
+
+        // Turn on power
+        portable.power();
+
+        // Print television turned on
+        System.out.println("A " + portable.getScreenSize() + " inch " + portable.getManufacturer() + " has been turned on");
+
+        // Change channel
+        System.out.print("What channel do you want? ");
+        portable.setChannel(keyboard.nextInt());
+
+        // Decrease volume by 2
+        portable.decreaseVolume();;
+        portable.decreaseVolume();;
+
+        // Print status
+        System.out.println("Channel: " + portable.getChannel() + " Volume: " + portable.getVolume());
     }
 }
