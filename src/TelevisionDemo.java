@@ -43,7 +43,7 @@ public class TelevisionDemo
         System.out.println(); //for a blank line
         //HERE IS WHERE YOU DO TASK #5
 
-        // Create new isntance
+        // Create new instance
         Television portable = new Television("Sharp", 19);
 
         // Turn on power

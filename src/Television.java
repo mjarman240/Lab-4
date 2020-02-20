@@ -1,13 +1,13 @@
 public class Television {
     // Variables
-    private String MANUFACTURER;
-    private int SCREEN_SIZE;
+    private final String MANUFACTURER;
+    private final int SCREEN_SIZE;
     private boolean powerOn;
     private int channel;
     private int volume;
 
     /**
-     * Default constructor
+     * No-arg constructor
      */
     public Television () {
         MANUFACTURER = "";
